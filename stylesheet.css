@@ -128,7 +128,7 @@ h2 {
 	font-size: 25px;
 	text-align: center;
 	font-family: arial, sans-serif;
-	cursor: help;
+	cursor: default;
 }
 
 .description {
@@ -136,8 +136,9 @@ h2 {
 	position: absolute;
 	background-color: #FFF;
 	left: 2.8%;
-	top: -3.6%;
+	top: -4.2%;
 	font-family: 'Permanent marker', cursive;
-	padding: 3px 0 3px 5px;
+	padding: 3px 0 3px 7px;
 	visibility: hidden;
+	border-radius: 5px 3px 3px 3px;
 }
