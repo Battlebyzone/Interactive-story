@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	overflow: hidden;
+	background: #7f0000;
+	background: -webkit-linear-gradient(left top, #4c0000, yellow); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #4c0000, yellow); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #4c0000, yellow); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #4c0000, black);
+	height: 680px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 60%;
+	padding: 5% 0;
+}
+
+.story-section {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+
+.story-section img {
+	border-radius: 7px;
+	border: 3px solid black;
+	width: 100%;
+}
+
+.dark {
+	width: 100%;
+	height: 461px;
+	background-color: #000;
+	border-radius: 7px;
+	border: 3px solid #000;
+	position: relative;
+}
+
+.lightswitch {
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	right: 5%;
+	bottom: 40%;
+}
+
+.lightswitch:hover {
+	background-color: #191919;
+}
+
+.summary {
+	width: 96%;
+	position: absolute;
+	left: 1%;
+	top: 2%;
+	background-color: rgba(255,255,255,0.5);
+	padding: 2% 0 2% 2%;
+}
+
+.summary:hover {
+	background-color: rgba(255,255,255,1);	
+}
+
+.summary p {
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+.box-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.box {
+	margin: 3% 0 0 0;
+	background: #FFF;
+	width: 30%;
+	padding: 1%;
+	text-align: center;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Permanent Marker', cursive;
+}
