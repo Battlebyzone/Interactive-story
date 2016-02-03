@@ -106,9 +106,14 @@ body {
 h1 {
 	font-family: 'Permanent Marker', cursive;
 }
+
 h2 {
 	font-size: 24px;
 	font-family: 'Permanent Marker', cursive;
+}
+
+.spec-box h2 {
+	font-size: 22px;
 }
 
 .hint {
@@ -123,4 +128,16 @@ h2 {
 	font-size: 25px;
 	text-align: center;
 	font-family: arial, sans-serif;
+	cursor: help;
+}
+
+.description {
+	width: 15%;
+	position: absolute;
+	background-color: #FFF;
+	left: 2.8%;
+	top: -3.6%;
+	font-family: 'Permanent marker', cursive;
+	padding: 3px 0 3px 5px;
+	visibility: hidden;
 }

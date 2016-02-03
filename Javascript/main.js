@@ -13,3 +13,12 @@ $(".lightswitch").click(function(){
 		$(".hidden-box").css("visibility", "visible");
 	}
 });
+
+$(".hint").mouseenter(function(){
+	$(".description").css("visibility", "visible");
+});
+
+$(".hint").mouseleave(function(){
+	$(".description").css("visibility", "hidden");
+});
+
