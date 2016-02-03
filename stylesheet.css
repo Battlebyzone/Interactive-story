@@ -18,6 +18,7 @@ body {
 	background: linear-gradient(to bottom right, #4c0000, black);
 	height: 100%;
 	min-width: 100%;
+	position: relative;
 }
 
 .container {
@@ -108,4 +109,18 @@ h1 {
 h2 {
 	font-size: 24px;
 	font-family: 'Permanent Marker', cursive;
+}
+
+.hint {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: yellow;
+	border-radius: 50%;
+	color: red;
+	left: 1%;
+	top: -8%;
+	font-size: 25px;
+	text-align: center;
+	font-family: arial, sans-serif;
 }
