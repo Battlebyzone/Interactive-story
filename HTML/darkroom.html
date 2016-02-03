@@ -10,14 +10,24 @@
 	<div class="container">
 		<div class="story-section">
 			<div class="dark">
-				<div class="lightswitch"></div>
+				<div class="lightswitch" onclick="Timing"></div>
 			</div>
+			<img class="no-display" src="../IMG/screamer.jpg" alt="Screamer">
 			<div class="summary">
 				<p>De kamer waar het geluid vandaan komt is donker. </p> 
 				<p>Vind de lichtschakelaar en klik erop om het licht aan te zetten.</p>		
 			</div>
+			<audio id="screamer">
+				<source src="../AUDIO/www.muzko.com__eeee_-_Scary_Maze_Game_Scream.mp3"/>
+			</audio>
+		</div>
+		<div class="box-container">
+			<div class="box hidden-box">
+				<h2>Ga verder</h2>
+			</div>
 		</div>
 	</div>
-	<script src="main.js"></script>
+	<script src="../Jquery/jquery.min.js"></script>
+	<script src="../Javascript/main.js" type="text/Javascript"></script>
 </body>
 </html>
