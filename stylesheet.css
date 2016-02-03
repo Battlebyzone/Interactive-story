@@ -4,6 +4,11 @@
 	border: 0;
 }
 
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
 body {
 	overflow: hidden;
 	background: #7f0000;
@@ -11,7 +16,8 @@ body {
 	background: -o-linear-gradient(bottom right, #4c0000, yellow); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(bottom right, #4c0000, yellow); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to bottom right, #4c0000, black);
-	
+	height: 100%;
+	min-width: 100%;
 }
 
 .container {
