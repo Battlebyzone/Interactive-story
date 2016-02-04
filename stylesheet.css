@@ -142,3 +142,7 @@ h2 {
 	visibility: hidden;
 	border-radius: 5px 3px 3px 3px;
 }
+
+.hidden-p {
+	display: none;
+}
