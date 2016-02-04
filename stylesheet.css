@@ -143,6 +143,25 @@ h2 {
 	border-radius: 5px 3px 3px 3px;
 }
 
+.tv-screen-iframe {
+	width:70%;
+	height:77%;
+	margin-top: 4%;
+	margin-left:-350px;
+	border:none;
+	border-radius:50px;
+}
+
+.iframe-body {
+	border:none;
+    display: flex;
+    justify-content: center;
+    background-image:url(IMG/OLD-SCHOOL-TV.png);
+    background-size:1920px 942px; 
+    background-color:black;
+    width:1920px;
+    height:942px;
+}
 .hidden-p {
 	display: none;
 }
