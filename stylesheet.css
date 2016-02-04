@@ -157,10 +157,10 @@ h2 {
     display: flex;
     justify-content: center;
     background-image:url(IMG/OLD-SCHOOL-TV.png);
-    background-size:1920px 942px; 
+    background-size:1024px 768px; 
     background-color:black;
-    width:1920px;
-    height:942px;
+    width:1024px;
+    height:768px;
 }
 .hidden-p {
 	display: none;
